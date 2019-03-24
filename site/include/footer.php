@@ -4,7 +4,7 @@
 				<div class="col-lg-3 col-sm-6">
 					<aside class="f_widget ab_widget">
 						<div class="f_title">
-							<h4>About Farfly</h4>
+							<h4>About PimpleZip</h4>
 						</div>
 						<ul>
 							<li><a href="#"></a>For Business</a></li><a href="#">
@@ -12,7 +12,7 @@
 							</a></li>
 							<li><a href="#"></a>Reviews</a></li>
 							<li><a href="#"></a>How it Works</a></li>
-							<li><a href="#"></a>Farfly Blog</a></li>
+							<li><a href="#"></a>PimpleZip Blog</a></li>
 						</ul>
 					</aside>
 				</div>

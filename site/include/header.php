@@ -38,10 +38,10 @@
 							<ul class="nav navbar-nav menu_nav justify-content-center">
 								<li class="nav-item active"><a class="nav-link" href="index.php">Home</a></li>
 								<li class="nav-item"><a class="nav-link" href="about-us.php">About</a></li>
-								<li class="nav-item"><a class="nav-link" href="gallery.php">List of Doctors</a>
+								<li class="nav-item"><a class="nav-link" href="doctor_list.php">List of Doctors</a>
 								<li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
-								<li class="nav-item"><a class="nav-link" href="contact.php">Tips</a></li>
-								<li class="nav-item"><a class="nav-link" href="contact.php">Live Chat</a></li>
+								<li class="nav-item"><a class="nav-link" href="tips.php">Tips</a></li>
+								<li class="nav-item"><a class="nav-link" href="livechat.php">Live Chat</a></li>
 							</ul>
 							<ul class="nav navbar-nav navbar-right">
 								<li class="nav-item"><a href="#" class="primary_btn">join us</a></li>
