@@ -1,20 +1,6 @@
 <?php
 include("include/header.php")
 ?>
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-	var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-	(function(){
-	var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-	s1.async=true;
-	s1.src='https://embed.tawk.to/5c85cf62c37db86fcfcd07ba/default';
-	s1.charset='UTF-8';
-	s1.setAttribute('crossorigin','*');
-	s0.parentNode.insertBefore(s1,s0);
-	})();
-	</script>
-	<!--End of Tawk.to Script-->
-
 <body>
 	<!--================Home Banner Area =================-->
 	<section class="home_banner_area">
@@ -29,13 +15,13 @@ include("include/header.php")
 					<div class="col-lg-6">
 						<div class="banner_content">
 							<h2>
-								For All Occasion <br>
-								HairStyle is a Must <br>
-								Try Fashion
+								At all Occasions <br>
+								Pimple is Annoying <br>
+								Try PimpleZip!
 							</h2>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore
-								magna aliqua. Ut enim ad minim.
+								PimpleZip is a site that is dedicated to help you fix your acnes, please do not 
+								hesitate to try our service.
 							</p>
 							<div class="d-flex align-items-center">
 								<a id="play-home-video" class="video-play-button" href="https://www.youtube.com/watch?v=vParh5wE-tM">
@@ -67,15 +53,15 @@ include("include/header.php")
 			<div class="row text-center">
 				<div class="col-lg-3 col-md-6 col-sm-6">
 					<div class="new_games_item">
-						<img src="img/b_map1.png" alt="">
+						<img src="img/healthyfoods.png" alt="">
 						<div class="upcoming_title">
-							<h3><a href="games.html">Food Recommendation</a></h3>
+							<h3><a href="games.html">Food</a></h3>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-6">
 					<div class="new_games_item">
-						<img src="img/b_map2.png" alt="">
+						<img src="img/healthylife.png" alt="">
 						<div class="upcoming_title">
 							<h3><a href="games.html">Lifestyle</a></h3>
 						</div>
@@ -83,7 +69,7 @@ include("include/header.php")
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-6">
 					<div class="new_games_item">
-						<img src="img/b_map3.png" alt="">
+						<img src="img/skinproducts.png" alt="">
 						<div class="upcoming_title">
 							<h3><a href="games.html">Products</a></h3>
 						</div>
@@ -91,7 +77,7 @@ include("include/header.php")
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-6">
 					<div class="new_games_item">
-						<img src="img/b_map4.png" alt="">
+						<img src="img/greenenvironment.png" alt="">
 						<div class="upcoming_title">
 							<h3><a href="games.html">Environment</a></h3>
 						</div>
@@ -189,10 +175,13 @@ include("include/header.php")
 	<!--========== Start Testimonials Area ==================-->
 	<section class="testimonials_area section_gap">
 		<div class="container">
+					<div class="doctor-note">
+						<h4>What our doctor says</h4>
+					</div>
 			<div class="testi_slider owl-carousel">
 				<div class="testi_item">
-					<img src="img/quote.png" alt="">
-					<h4>Fanny Spencer</h4>
+					<img src="img/thought.png" alt="">
+					<h4>Dr.Frankenstein</h4>
 					<ul class="list">
 						<li><a href="#"><i class="fa fa-star"></i></a></li>
 						<li><a href="#"><i class="fa fa-star"></i></a></li>
@@ -209,8 +198,8 @@ include("include/header.php")
 					</div>
 				</div>
 				<div class="testi_item">
-					<img src="img/quote.png" alt="">
-					<h4>Fanny Spencer</h4>
+					<img src="img/thought.png" alt="">
+					<h4>Dr.Johanes</h4>
 					<ul class="list">
 						<li><a href="#"><i class="fa fa-star"></i></a></li>
 						<li><a href="#"><i class="fa fa-star"></i></a></li>
@@ -227,8 +216,8 @@ include("include/header.php")
 					</div>
 				</div>
 				<div class="testi_item">
-					<p>Dr.Cindy</p>
-					<h4>Reviewer: Fanny Spencer</h4>
+					<img src="img/thought.png" alt="">
+					<h4>Dr.Pauper</h4>
 					<ul class="list">
 						<li><a href="#"><i class="fa fa-star"></i></a></li>
 						<li><a href="#"><i class="fa fa-star"></i></a></li>

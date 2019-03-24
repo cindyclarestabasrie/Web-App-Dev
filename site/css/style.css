@@ -3869,6 +3869,8 @@ h6 {
 /*# sourceMappingURL=style.css.map */
 
 /* Custom css starts here */
+
+/* start for live chat page */
 .live-chat-text{
   text-align: center;
   font-weight: bold;
@@ -3876,7 +3878,7 @@ h6 {
 
 .button-live-chat{
   border-radius: 4px;
-  background-color: #f4511e;
+  background-color: #6f08e4;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -3911,4 +3913,11 @@ h6 {
 .button-live-chat:hover span:after {
   opacity: 1;
   right: 0;
+}
+/* end for live chat page */
+
+.doctor-note{
+  text-align: center;
+  font-weight: bold;
+  color: rgb(102, 255, 0);
 }
