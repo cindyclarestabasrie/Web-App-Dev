@@ -37,5 +37,7 @@ include("include/header.php")
             <?php
             echo "</br></br></br>Please the button below to start a live chat</br>";
             ?>
-            <button class="button-live-chat"><span>Chat with us </span></button>
+            <a href="https://tawk.to/chat/5b26665161a2e64e5fb58ada/default"target="_blank">
+                <button class="button-live-chat"><span>Chat with us </span></button>
+            </a>
         </div>
