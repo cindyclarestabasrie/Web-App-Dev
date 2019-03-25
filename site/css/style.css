@@ -76,10 +76,10 @@ button:focus {
       padding: 60px 0; } }
 
 .section_gap_top {
-  padding-top: 120px; }
-  @media (max-width: 767px) {
+  padding-top: 1px; }
+  @media (max-width: 1px) {
     .section_gap_top {
-      padding-top: 60px; } }
+      padding-top: 1px; } }
 
 .section_gap_bottom {
   padding-bottom: 120px; }
