@@ -44,7 +44,7 @@
 								<li class="nav-item"><a class="nav-link" href="livechat.php">Live Chat</a></li>
 							</ul>
 							<ul class="nav navbar-nav navbar-right">
-								<li class="nav-item"><a href="#" class="primary_btn">join us</a></li>
+								<li class="nav-item"><a href="#" class="primary_btn">Login/Register</a></li>
 							</ul>
 						</div>
 					</div>

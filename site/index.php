@@ -93,74 +93,26 @@ include("include/header.php")
 		<div class="container">
 			<div class="recent_update_inner">
 				<ul class="nav nav-tabs" id="myTab" role="tablist">
-					<li class="nav-item">
-						<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
-							Live Streaming
-						</a>
-					</li>
+					
 					<li class="nav-item">
 						<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
 						 aria-selected="false">
-							Upcoming Challanges
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
-						 aria-selected="false">
-							Recent Famous Games
+							Become a Doctor
 						</a>
 					</li>
 				</ul>
-				<div class="tab-content" id="myTabContent">
-					<div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
-						<div class="row recent_update_text">
-							<div class="col-lg-6">
-								<div class="chart_img">
-									<img class="img-fluid" src="img/recent_up.png" alt="">
-								</div>
-							</div>
-							<div class="col-lg-6">
-								<div class="section_content">
-									<h6>About Us</h6>
-									<h1>We Believe that <br>Interior beauty Lasts Long</h1>
-									<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
-										especially in the workplace. That’s why it’s crucial that as women.</p>
-									<a class="primary_btn" href="#">Learn More</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-						<div class="row recent_update_text">
-							<div class="col-lg-6">
-								<div class="chart_img">
-									<img class="img-fluid" src="img/recent_up.png" alt="">
-								</div>
-							</div>
-							<div class="col-lg-6">
-								<div class="section_content">
-									<h6>About Us</h6>
-									<h1>We Believe that <br>Interior beauty Lasts Long</h1>
-									<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
-										especially in the workplace. That’s why it’s crucial that as women.</p>
-									<a class="primary_btn" href="#">Learn More</a>
-								</div>
-							</div>
-						</div>
-					</div>
 					<div class="tab-pane fade show active" id="contact" role="tabpanel" aria-labelledby="contact-tab">
 						<div class="row recent_update_text">
 							<div class="col-lg-6">
 								<div class="chart_img">
-									<img class="img-fluid" src="img/recent_up.png" alt="">
+									<img class="img-fluid" src="img/femaledoctor.png" alt="">
 								</div>
 							</div>
 							<div class="col-lg-6">
 								<div class="section_content">
-									<h6>About Us</h6>
-									<h1>We Believe that <br>Interior beauty Lasts Long</h1>
-									<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
-										especially in the workplace. That’s why it’s crucial that as women.</p>
+									<h6>Apply to be our consultant!</h6>
+									<h1>We are looking for <br>professional consultant</h1>
+									<p>Meet other professional consultants to work with and increase the awareness of people around you!</p>
 									<a class="primary_btn" href="#">Learn More</a>
 								</div>
 							</div>
