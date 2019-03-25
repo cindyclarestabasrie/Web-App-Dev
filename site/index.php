@@ -180,7 +180,7 @@ include("include/header.php")
 					</div>
 			<div class="testi_slider owl-carousel">
 				<div class="testi_item">
-					<img src="img/thought.png" alt="">
+					<img src="img/Thought.png" alt="">
 					<h4>Dr.Frankenstein</h4>
 					<ul class="list">
 						<li><a href="#"><i class="fa fa-star"></i></a></li>
@@ -198,7 +198,7 @@ include("include/header.php")
 					</div>
 				</div>
 				<div class="testi_item">
-					<img src="img/thought.png" alt="">
+					<img src="img/Thought.png" alt="">
 					<h4>Dr.Johanes</h4>
 					<ul class="list">
 						<li><a href="#"><i class="fa fa-star"></i></a></li>
@@ -216,7 +216,7 @@ include("include/header.php")
 					</div>
 				</div>
 				<div class="testi_item">
-					<img src="img/thought.png" alt="">
+					<img src="img/Thought.png" alt="">
 					<h4>Dr.Pauper</h4>
 					<ul class="list">
 						<li><a href="#"><i class="fa fa-star"></i></a></li>
