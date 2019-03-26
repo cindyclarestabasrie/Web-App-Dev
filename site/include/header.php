@@ -36,15 +36,15 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 							<ul class="nav navbar-nav menu_nav justify-content-center">
-								<li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-								<li class="nav-item"><a class="nav-link" href="about-us.php">About</a></li>
-								<li class="nav-item"><a class="nav-link" href="doctor_list.php">List of Doctors</a>
-								<li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
-								<li class="nav-item"><a class="nav-link" href="tips.php">Tips</a></li>
-								<li class="nav-item"><a class="nav-link" href="livechat.php">Live Chat</a></li>
+								<li class="nav-item <?= $page=='home' ? 'active' : '' ?>"><a class="nav-link" href="index.php">Home</a></li>
+								<li class="nav-item <?= $page=='about' ? 'active' : '' ?>"><a class="nav-link" href="about-us.php">About</a></li>
+								<li class="nav-item <?= $page=='feedback' ? 'active' : '' ?>"><a class="nav-link" href="feedback.php">Feedbacks</a>
+								<li class="nav-item <?= $page=='contact' ? 'active' : '' ?>"><a class="nav-link" href="contact.php">Contact</a></li>
+								<li class="nav-item <?= $page=='tips' ? 'active' : '' ?>"><a class="nav-link" href="tips.php">Tips</a></li>
+								<li class="nav-item <?= $page=='livechat' ? 'active' : '' ?>"><a class="nav-link" href="livechat.php">Live Chat</a></li>
 							</ul>
 							<ul class="nav navbar-nav navbar-right">
-								<li class="nav-item"><a href="#" class="primary_btn">Login/Register</a></li>
+								<li class="nav-item"><a href="/signup/signup.php" class="primary_btn">Login/Register</a></li>
 							</ul>
 						</div>
 					</div>

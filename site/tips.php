@@ -1,4 +1,5 @@
 <?php
+$page="tips";
 include("include/header.php")
 ?>
     <!--Start of Tawk.to Script-->

@@ -1,4 +1,5 @@
 <?php
+$page="about";
 include("include/header.php")
 ?>
     <body class="about_page">

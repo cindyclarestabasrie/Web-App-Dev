@@ -1,5 +1,6 @@
 <?php
-include("include/header.php")
+$page="home";
+include("include/header.php");
 ?>
 <body>
 	<!--================Home Banner Area =================-->
@@ -9,7 +10,7 @@ include("include/header.php")
 				<div class="row">
 					<div class="col-lg-6">
 						<div class="home_left_img">
-							<img class="img-fluid" src="img/banner/home-left.png" alt="">
+							<img class="img-fluid" src="img/banner/face-acne.png" alt="">
 						</div>
 					</div>
 					<div class="col-lg-6">
@@ -23,14 +24,6 @@ include("include/header.php")
 								PimpleZip is a site that is dedicated to help you fix your acnes, please do not 
 								hesitate to try our service.
 							</p>
-							<div class="d-flex align-items-center">
-								<a id="play-home-video" class="video-play-button" href="https://www.youtube.com/watch?v=vParh5wE-tM">
-									<span></span>
-								</a>
-								<div class="watch_video text-uppercase">
-									watch the video
-								</div>
-							</div>
 						</div>
 					</div>
 				</div>

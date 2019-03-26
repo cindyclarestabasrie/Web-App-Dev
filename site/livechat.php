@@ -1,4 +1,5 @@
 <?php
+$page="livechat";
 include("include/header.php")
 ?>
         <!--================Home Banner Area =================-->
