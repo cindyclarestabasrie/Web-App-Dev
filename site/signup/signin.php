@@ -13,10 +13,10 @@ include("include/header.php")
 
                     <div class="signin-form">
                         <h2 class="form-title">Sign in</h2>
-                        <form method="POST" class="register-form" id="username">
+                        <form method="POST" class="register-form">
                             <div class="form-group">
-                                <label for="username"><i class="zmdi zmdi-account material-icons-name"></i></label>
-                                <input type="text" name="username" id="username" placeholder="Your Username"/>
+                                <label for="email"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="email" id="email" placeholder="Your E-mail"/>
                             </div>
                             <div class="form-group">
                                 <label for="your_pass"><i class="zmdi zmdi-lock"></i></label>
@@ -27,11 +27,14 @@ include("include/header.php")
                                 <label for="remember-me" class="label-agree-term"><span><span></span></span>Remember me</label>
                             </div>
                             <div class="form-group form-button">
-                                <input type="submit" name="signin" id="signin" class="form-submit" value="Log in"/>
+                                <input type="button" name="signin" id="signin" class="form-submit" value="Log in" onclick="login()"/>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
         </section>
+
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="js/login.js"></script>
 </div>

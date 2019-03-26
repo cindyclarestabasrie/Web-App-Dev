@@ -44,13 +44,13 @@
 								<li class="nav-item <?= $page=='livechat' ? 'active' : '' ?>"><a class="nav-link" href="livechat.php">Live Chat</a></li>
 							</ul>
 							<ul class="nav navbar-nav navbar-right">
-								<li class="nav-item"><a href="/signup/signup.php" class="primary_btn">Login/Register</a></li>
+								<li class="nav-item" id="login-btn"><a href="/signup/signup.php" class="primary_btn">Login/Register</a></li>
+								<li class="nav-item"><a href="/signup/signup.php" class="primary_btn">Logout</a></li>
 							</ul>
 						</div>
 					</div>
 				</nav>
 			</div>
 		</header>
-		<!--================Header Menu Area =================-->
-	
+		<!--================Header Menu Area =================-->	
 </head>
