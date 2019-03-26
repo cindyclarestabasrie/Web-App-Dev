@@ -22,26 +22,26 @@ function register() {
             console.log(response);
         }
     })
-    // fetch('http://192.168.43.52:8000/login', {
-    //     method: 'post',
-    //     mode: "no-cors",
-    //     headers: {
-    //         'Content-Type': 'application/json'
-    //     },
-    //     body: JSON.stringify(datalogin)
-    // })
-    // .then(res => {
-    //     console.log(res);
-    // })
-    // .then(res => res.json())
-    // .then(result => {
-    //     var datauser = {
-    //         login_id: result.id,
-    //         address: address,
-    //         gender: gender,
-    //         name: name,
-    //         phone: phonenum
-    //     };
+    fetch('http://192.168.43.52:8000/login', {
+        method: 'post',
+        mode: "no-cors",
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(datalogin)
+    })
+    .then(res => {
+        console.log(res);
+    })
+    .then(res => res.json())
+    .then(result => {
+        var datauser = {
+            login_id: result.id,
+            address: address,
+            gender: gender,
+            name: name,
+            phone: phonenum
+        };
 
     //     fetch('http://192.168.43.52:8000/user', {
     //         method: 'post',
