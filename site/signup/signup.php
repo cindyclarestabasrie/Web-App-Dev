@@ -15,10 +15,19 @@ include("include/header.php")
                                 <input type="text" name="name" id="name" placeholder="Your Name"/>
                             </div>
                             <div class="form-group">
-                                <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <label for="gender"><i class="zmdi zmdi-account material-icons-name"></i></label>
                                 <select name="Gender" placeholder="Gender" style="margin: 6px 30px;" id="gender">
                                 <option value="male">Male</option><option value="female">Female</option></select>
                             </div>
+
+                            <div class="form-group" style="display: inline">
+                                <label for="dateofbirth"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <h4 style="margin-top: 30px">Birthday:</h4>
+                                <input type="text" name="date" id="date" placeholder="Date"/>
+                                <input type="text" name="month" id="month" placeholder="Month"/>
+                                <input type="text" name="year" id="year" placeholder="Year"/>
+                            </div>
+
                             <div class="form-group">
                                 <label for="address"><i class="zmdi zmdi-account material-icons-name"></i></label>
                                 <input type="text" name="address" id="address" placeholder="Your Address"/>
