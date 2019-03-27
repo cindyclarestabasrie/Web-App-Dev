@@ -16,6 +16,7 @@ include("include/header.php")
 					</div>
 				</div>
             </div>
+            <script src="js/main.js"></script>
         </section>
         <!--================End Home Banner Area =================-->
 

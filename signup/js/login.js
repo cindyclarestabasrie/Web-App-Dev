@@ -9,7 +9,7 @@ function login() {
 
     $.ajax({
         method: 'post',
-        url: 'http://178.128.82.158:22/api/auth/login',
+        url: 'http://178.128.82.158/api/auth/login',
         contentType: 'application/json',
         dataType: 'json',
         data: JSON.stringify(datalogin),

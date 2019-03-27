@@ -45,7 +45,7 @@
 							</ul>
 							<ul class="nav navbar-nav navbar-right">
 								<li class="nav-item" id="login-btn"><a href="/signup/signup.php" class="primary_btn">Login/Register</a></li>
-								<li class="nav-item" id="logout-btn"><a href="#" class="primary_btn" onclick="logout()">Logout</a></li>
+								<li class="nav-item" id="logout-btn"><a  class="primary_btn" onclick="logout()">Logout</a></li>
 							</ul>
 						</div>
 					</div>
