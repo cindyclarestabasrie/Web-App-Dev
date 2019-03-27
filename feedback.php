@@ -62,5 +62,6 @@ include("include/header.php")
       <input type="submit" value="Submit">
     </div>
   </form>
+  <script src="js/main.js"></script>
 </div>
 </div>

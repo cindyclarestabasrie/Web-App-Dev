@@ -32,7 +32,9 @@ include("include/header.php")
 				</div>
             </div>
         </section>
+        <script src="js/main.js"></script>
         <!--================End Home Banner Area =================-->
 
         <Section class="live_chat">
+        
             <h2>TIPS</h2>

@@ -155,5 +155,6 @@ include("include/footer.php")
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
         <script src="js/gmaps.min.js"></script>
         <script src="js/theme.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
