@@ -1,4 +1,6 @@
 function register() {
+
+
     var name = document.getElementById('name'),
         gender = document.getElementById('gender'),
         address = document.getElementById('address'),
@@ -14,7 +16,11 @@ function register() {
         // gender: gender,
         // name: name,
         role_id: 2
+
+    
+        
     };
+    
 
     console.log(JSON.stringify(datalogin));
 
@@ -31,4 +37,9 @@ function register() {
             console.log(response);
         }
     })
+
+}
+
+function signuprefresh() {
+    location.href='/../index.php'
 }

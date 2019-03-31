@@ -45,7 +45,7 @@ include("include/header.php")
                                 <input type="password" name="pass" id="pass" placeholder="Password"/>
                             </div>
                             <div class="form-group form-button">
-                                <input onclick="register()" type="button" name="signup" id="signup" class="form-submit" value="Register"/>
+                                <input onclick="register(); signuprefresh();" type="button" name="signup" id="signup" class="form-submit" value="Register"/>
                             </div>
                         </form>
                     </div>
