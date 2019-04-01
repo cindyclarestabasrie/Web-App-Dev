@@ -1,5 +1,5 @@
 <?php
-include("include/header.php")
+include("../include/header.php")
 ?>
     <body>
         <!-- Copied from W3Schools -->
@@ -8,6 +8,7 @@ include("include/header.php")
             <a href="AdminPanel.php" style="font-size: 18px">Admin Home Page</a>
             <a href="users.php" style="font-size: 18px">Show Users</a>
             <a href="feedbacks.php" style="font-size: 18px">Feedbacks</a>
+            <a href="posts.php" style="font-size: 18px">Posts</a>
         </div>
         
         <div class="main">
@@ -15,7 +16,7 @@ include("include/header.php")
         <form class="form-control" method="get" action="users.php" class="form-control" style="margin-top: 150px">
             <select name="tablename[]">
                 <option value="user">Users</option>
-                <option value="doctor">Doctors</option>
+                <option value="consultant">Doctors</option>
             </select>
       
             <!-- For later search name or id easier -->
@@ -23,7 +24,7 @@ include("include/header.php")
             <select name="columnname[]">
                 <option value="id">ID</option>
                 <option value="name">Name</option>
-                <option>Other Column Added Later</option>
+                <!-- <option>Other Column Added Later</option> -->
             </select>
             <input type="submit" name="search" value="Search"/>
             <input type="submit" name="delete" value="Delete"/>
@@ -38,12 +39,12 @@ include("include/header.php")
             $dbname = "testing";
 
             // creating connection
-            // $connect = new msqli($server, $user, $pass, $dbname);
+            $connect = new msqli($server, $user, $pass, $dbname);
             
-            // //Check if connection to database success
-            // if ($connect->connect_error) {
-            //     die("Connection failed: " . $connect->connect_error);
-            // }
+            //Check if connection to database success
+            if ($connect->connect_error) {
+                die("Connection failed: " . $connect->connect_error);
+            }
 
             $tablename = $_GET['tablename'];
             $tablechosen = "";
@@ -58,24 +59,23 @@ include("include/header.php")
             foreach($column as $selected){
                 $columnchosen = $selected;
                 echo "<br>choose ".$columnchosen;}
-        //           //query command
-        //    $query = "SELECT id, username FROM $tablechosen WHERE $columnchosen = $text";
-        //    $result = $connect->query($sql);
+                  //query command
+           $query = "SELECT id, name FROM $tablechosen WHERE $columnchosen = $text";
+           $result = $connect->query($sql);
 
-        //     //if query result is not zero
-        //     if ($result->num_rows > 0) {
-        //         //The header of the table
-        //         echo "<table><tr><th>ID</th><th>Username</th></tr>";
-        //         //each row output
-        //         while($row = $result->fetch_assoc()){
-        //             echo"<tr><td>".$row[""]."</td><td>".$row[""]."</td></tr>";
-        //         }
-        //         echo "</table>";
-        //     } else { 
-        //         echo "No Results";
-        //     }
-        //     $conn->close();
-        //     }
+            //if query result is not zero
+            if ($result->num_rows > 0) {
+                //The header of the table
+                echo "<table><tr><th>ID</th><th>Username</th></tr>";
+                //each row output
+                while($row = $result->fetch_assoc()){
+                    echo"<tr><td>".$row[""]."</td><td>".$row[""]."</td></tr>";
+                }
+                echo "</table>";
+            } else { 
+                echo "No Results";
+            }
+            $conn->close();
         ?>
         
         <?php

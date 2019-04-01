@@ -10,12 +10,14 @@ include("../include/header.php")
             <a href="feedbacks.php" style="font-size: 18px">Feedbacks</a>
             <a href="posts.php" style="font-size: 18px">Posts</a>
         </div>
-
-        <div style="margin-top:150px; margin-left: 200px">
-            <h1>
-                Please select option
-            </h1>
-        </div>
+        <!-- page title -->
+        <form class="form-group">
+        <h4>Page Title</h4>
+        <input type="text" name="title"/>
+        <h4>Content</h4>
+        <textarea maxlength="5000" rows="10" name="content"></textarea>
+        <input type="submit" class="btn-primary">
+        </form>
         <?php
         //include("include/footer.php")
         ?>
