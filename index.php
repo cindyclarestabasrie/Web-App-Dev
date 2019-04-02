@@ -32,7 +32,7 @@ include("include/header.php");
 	</section>
 	<!--================End Home Banner Area =================-->
 
-	<!--================First Upcoming Games Area =================-->
+	<!--================Area =================-->
 	<section class="upcoming_games_area">
 		<div class="container">
 			<div class="row">
