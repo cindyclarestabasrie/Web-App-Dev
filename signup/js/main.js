@@ -18,7 +18,7 @@ function register() {
         address: address,
         gender: gender,
         name: name,
-        date_of_birth: date_of_birth;
+        date_of_birth: date_of_birth
     };
 
 
