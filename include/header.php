@@ -42,6 +42,7 @@
 								<li class="nav-item <?= $page=='contact' ? 'active' : '' ?>"><a class="nav-link" href="contact.php">Contact</a></li>
 								<li class="nav-item <?= $page=='tips' ? 'active' : '' ?>"><a class="nav-link" href="tips.php">Tips</a></li>
 								<li class="nav-item <?= $page=='livechat' ? 'active' : '' ?>"><a class="nav-link" id="livechat">Live Chat</a></li>
+								<li class="nav-item <?= $page=='profilepage' ? 'active' : '' ?>"><a class="nav-link" id="livechat">Hello NameHere</a></li>
 							</ul>
 							<ul class="nav navbar-nav navbar-right">
 								<li class="nav-item" id="login-btn"><a href="/signup/signup.php" class="primary_btn">Login/Register</a></li>
