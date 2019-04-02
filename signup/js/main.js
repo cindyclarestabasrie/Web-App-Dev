@@ -1,11 +1,11 @@
 function register() {
 
 
-    var name = document.getElementById('name'),
-        gender = document.getElementById('gender'),
-        address = document.getElementById('address'),
-        phone = document.getElementById('phone'),
-        date_of_birth = document.getElementById('date_of_birth'),
+    var name = document.getElementById('name').value,
+        gender = document.getElementById('gender').value,
+        address = document.getElementById('address').value,
+        phone = document.getElementById('phone').value,
+        date_of_birth = document.getElementById('date_of_birth').value,
         email = document.getElementById('email').value,
         password = document.getElementById('pass').value;
 
