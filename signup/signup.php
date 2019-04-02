@@ -27,14 +27,14 @@ include("include/header.php")
                                 <input type="text" name="month" id="month" placeholder="Month"/>
                                 <input type="text" name="year" id="year" placeholder="Year"/>
                             </div>
-
+                            
                             <div class="form-group">
                                 <label for="address"><i class="zmdi zmdi-account material-icons-name"></i></label>
                                 <input type="text" name="address" id="address" placeholder="Your Address"/>
                             </div>
                             <div class="form-group">
-                                <label for="phonenum"><i class="zmdi zmdi-account material-icons-name"></i></label>
-                                <input type="text" name="phonenum" id="phonenum" placeholder="Your Phone Number"/>
+                                <label for="phone"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="phone" id="phone" placeholder="Your Phone Number"/>
                             </div>
                             <div class="form-group">
                                 <label for="email"><i class="zmdi zmdi-email"></i></label>
